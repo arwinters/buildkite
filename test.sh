@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "Hello World"
-touch ~/hello.txt
+message = "Tony"
+filename = "hello.text"
+
+touch ~/$filename
+echo "Hello $message" > $filename
