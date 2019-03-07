@@ -1,7 +1,7 @@
 #!/bin/bash
 
 message="Tony"
-filename="hello.text"
+filename="hello.txt"
 
 touch ~/$filename
 echo "Hello $message" > $filename
